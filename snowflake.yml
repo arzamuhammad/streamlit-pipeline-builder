@@ -1,0 +1,12 @@
+definition_version: 2
+entities:
+  pipeline_builder:
+    type: streamlit
+    identifier:
+      name: pipeline_builder
+    title: "Jobs & Pipelines"
+    query_warehouse: GEN2_SMALL
+    main_file: streamlit_app.py
+    pages_dir: null
+    artifacts:
+      - streamlit_app.py
